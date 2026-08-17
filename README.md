@@ -59,6 +59,14 @@ The goal is not to promote a specific pattern or architecture, but to document *
 
 [Explore Software Architecture →](architecture/README.md)
 
+### Architecture Decisions
+
+Important architectural decisions are documented using lightweight Architecture Decision Records (ADRs).
+
+- [ADR-001 — Modular Monolith Architecture](architecture/decisions/ADR-001-modular-monolith.md)
+- [ADR-002 — Multi-Tenant Data Isolation](architecture/decisions/ADR-002-multi-tenant-data-isolation.md)
+- [ADR-003 — Permission-Based Authorization](architecture/decisions/ADR-003-permission-based-authorization.md)
+
 ---
 
 ## What This Portfolio Focuses On
