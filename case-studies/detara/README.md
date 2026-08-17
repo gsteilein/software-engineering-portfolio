@@ -53,6 +53,48 @@ The technical architecture was designed around a few important goals:
 
 ---
 
+## Current Architecture Status
+
+The architectural foundation of Detara is already implemented and actively evolving.
+
+The platform currently includes the foundational capabilities for:
+
+- Company and tenant management
+- Users and profiles
+- Permission-based authorization
+- User preferences
+- Customers
+- Vehicles
+- Service categories
+- Services
+- Service packages
+- Multi-tenant data isolation
+- JWT-based authentication
+- Responsive Blazor application shell
+- Light and dark themes
+- Containerized local development environment
+
+The current business modules are organized around:
+
+```text
+Detara
+│
+├── Platform / Identity
+│   ├── Companies
+│   ├── Users
+│   ├── Profiles
+│   ├── Permissions
+│   └── Preferences
+│
+├── Customers
+│   ├── Customers
+│   └── Vehicles
+│
+└── Catalog
+    ├── Service Categories
+    ├── Services
+    └── Packages
+
 # Architecture
 
 Detara currently follows a **modular monolith architecture**.
