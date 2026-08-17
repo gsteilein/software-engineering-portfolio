@@ -94,6 +94,7 @@ Detara
     ├── Service Categories
     ├── Services
     └── Packages
+```
 
 # Architecture
 
